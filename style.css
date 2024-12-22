@@ -114,14 +114,13 @@ footer {
 .event-header {
      display: flex;
      align-items: center;
-     justify-content: space-between;
+     
 }
 .event-logo {
-    max-width: 500px; /* Максимальная ширина для логотипов */
-    height: auto; /* Автоматическая высота для сохранения пропорций */
-    margin-left: 1000px;
+    max-width: 100px;
+    height: auto;
+    margin-left: 10px;
     border-radius: 50px;
-
 }
 form label{
     display: block;
