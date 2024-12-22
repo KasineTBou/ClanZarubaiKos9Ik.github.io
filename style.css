@@ -117,10 +117,10 @@ footer {
      
 }
 .event-logo {
-    max-width: 100px;
+    max-width: 500px;
     height: auto;
     margin-left: 10px;
-    border-radius: 50px;
+    border-radius: 10px;
 }
 form label{
     display: block;
