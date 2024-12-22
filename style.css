@@ -7,7 +7,7 @@ body {
     line-height: 1.6;
 }
 .container {
-      width: 90%;
+    width: 90%;
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px 0;
@@ -15,7 +15,7 @@ body {
 
 header {
     background-color: #1a1a1a; /* Темно-серый */
-     border-bottom: 2px solid #d43e3e; /* Красный */
+    border-bottom: 2px solid #d43e3e; /* Красный */
     padding: 10px 0;
     text-align: center;
 }
@@ -42,14 +42,14 @@ header nav ul li a {
     border-radius: 5px;
 }
 header nav ul li a:hover, header nav ul li a.active {
-     background-color: #d43e3e; /* Красный на hover */
+    background-color: #d43e3e; /* Красный на hover */
 }
 
 main {
     padding: 20px 0;
 }
 main h2 {
-     color: #d43e3e; /* Красный */
+    color: #d43e3e; /* Красный */
     margin-bottom: 20px;
 }
 main p {
@@ -69,12 +69,12 @@ main p {
     border-radius: 5px;
 }
 .button:hover {
-   background-color: #a82c2c; /* Более темный красный */
+    background-color: #a82c2c; /* Более темный красный */
 }
 
 footer {
     background-color: #1a1a1a; /* Темно-серый */
-      border-top: 2px solid #d43e3e; /* Красный */
+    border-top: 2px solid #d43e3e; /* Красный */
     color: #eee; /* Белый */
     padding: 10px 0;
     text-align: center;
@@ -90,26 +90,38 @@ footer {
 .member {
     background-color: #1a1a1a;
     padding: 15px;
-     margin-bottom: 20px;
+    margin-bottom: 20px;
     border-radius: 5px;
 }
 .member h3 {
     color: #d43e3e;
-   margin-bottom: 10px;
-   border-bottom: 1px solid #666;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #666;
     padding-bottom: 5px;
 }
 .event {
-     background-color: #1a1a1a;
+    background-color: #1a1a1a;
     padding: 15px;
     margin-bottom: 20px;
-     border-radius: 5px;
+    border-radius: 5px;
 }
 .event h3 {
     color: #d43e3e;
-   margin-bottom: 10px;
-     border-bottom: 1px solid #666;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #666;
     padding-bottom: 5px;
+}
+.event-header {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+.event-logo {
+    max-width: 50px; /* Максимальная ширина для логотипов */
+    height: auto; /* Автоматическая высота для сохранения пропорций */
+    margin-left: 10px;
+    border-radius: 5px;
+
 }
 form label{
     display: block;
@@ -117,10 +129,10 @@ form label{
 }
 form input,
 form textarea {
-     margin-bottom: 15px;
+    margin-bottom: 15px;
     padding: 8px;
-     border: 1px solid #666;
-   background-color: #333;
+    border: 1px solid #666;
+    background-color: #333;
     color: #eee;
-   border-radius: 3px;
- }
+    border-radius: 3px;
+}
