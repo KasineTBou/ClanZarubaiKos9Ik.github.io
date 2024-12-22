@@ -117,10 +117,10 @@ footer {
      justify-content: space-between;
 }
 .event-logo {
-    max-width: 50px; /* Максимальная ширина для логотипов */
+    max-width: 450px; /* Максимальная ширина для логотипов */
     height: auto; /* Автоматическая высота для сохранения пропорций */
     margin-left: 10px;
-    border-radius: 5px;
+    border-radius: 50px;
 
 }
 form label{
