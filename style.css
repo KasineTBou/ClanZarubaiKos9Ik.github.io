@@ -117,8 +117,8 @@ footer {
      
 }
 .event-logo {
-    max-width: 1000px;
-    height: auto;
+    max-width: 100px;
+    height: 500px;
     margin-left: 100px;
     border-radius: 5px;
 }
